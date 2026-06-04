@@ -1,0 +1,16 @@
+.formSection {
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.formSection h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.dateInput input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: brightness(0);
+    cursor: pointer;
+}
